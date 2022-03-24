@@ -1,0 +1,16 @@
+cdef list letters, numbers
+cdef list letters_and_numbers
+cdef int xor(int int1, int int2)
+cdef list xor_grid(list grid1, list grid2)
+cdef list grid(list values)
+cdef list add_grids(list grid1, list grid2)
+cdef list create_fill_values()
+cdef list create_cipher_grid()
+cdef list fill_list(list _list, list _fill)
+cdef list hex_list(list _list)
+cdef list grid_to_list(list grid)
+cdef list shift_right(list l)
+cdef list shift_left(list l)
+cdef list shift_list(list l, int positions, str direction)
+cdef list shift_col(list grid, int col_index, str direction)
+cdef str convert_grid_to_text(grid)
